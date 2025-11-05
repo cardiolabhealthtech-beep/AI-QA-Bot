@@ -1,4 +1,11 @@
 import os
+from dotenv import load_dotenv
+import requests
+
+load_dotenv()
+CALLYZER_API_KEY = os.getenv("CALLYZER_API_KEY")
+
+import os
 import json
 import requests
 import pandas as pd
@@ -161,3 +168,4 @@ def home():
 # ==================== RUN SERVER ====================
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000, debug=True)
+

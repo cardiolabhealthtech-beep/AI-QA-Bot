@@ -1,5 +1,6 @@
 flask
 requests
-pandas
 openai
+pandas
 python-dotenv
+pydub

@@ -1,7 +1,5 @@
-Flask
+flask
 requests
-openai
-pydub
 pandas
-openpyxl
+openai
 python-dotenv
